@@ -8,6 +8,16 @@
 
 
 
+## Prerequisites
+
+- Linux system
+- `latexdiff-vc`
+- `latexmk`; you should create `.latexmkrc` file
+- typeset by $\mathrm{Lua\LaTeX}$
+- Language: I checked English and Japanese documents (difference file of Japanese documents is sometimes not generated correctly by `latexdiff-vc`)
+
+
+
 ## Installation
 
 This project includes the following two scripts:
@@ -25,16 +35,6 @@ $ ls *.sh
 ck-latexdiff-wrapper.sh  ck-latexdiff.sh
 $ mv *.sh $HOME/local/bin
 ```
-
-
-
-## Prerequisites
-
-- Linux system
-- `latexdiff-vc`
-- `latexmk`; you should create `.latexmkrc` file
-- typeset by $\mathrm{Lua\LaTeX}$
-- Language: I checked English and Japanese documents (difference file of Japanese documents is sometimes not generated correctly by `latexdiff-vc`)
 
 
 
