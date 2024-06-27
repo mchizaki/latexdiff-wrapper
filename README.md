@@ -1,6 +1,6 @@
 # latexdiff-wrapper
 
-- The scripts in this project enable you to quickly generate a PDF of the difference between two tex files.
+- The scripts in this project enable you to quickly generate a PDF of the difference between two $\mathrm{\TeX}$ files.
 - These scripts automatically execute `latexdiff-vc` and `latexmk` to obtain and compile the difference file.
 - The same arguments as those in `latexdiff-vc` can be used; you can generate a PDF for the difference from files managed in `git` using the `-r` option, for example.
 
