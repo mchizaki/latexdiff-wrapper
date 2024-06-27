@@ -33,7 +33,8 @@ $ mv *.sh $HOME/local/bin
 - Linux system
 - `latexdiff-vc`
 - `latexmk`; you should create `.latexmkrc` file
-- Language: I checked English and Japanese documents
+- typeset by $\mathrm{Lua\LaTeX}$
+- Language: I checked English and Japanese documents (difference file of Japanese documents is sometimes not generated correctly by `latexdiff-vc`)
 
 
 
