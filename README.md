@@ -108,7 +108,7 @@ Edit these configuration files if you want to change the highlight markup in the
 The usage is the same as `latexdiff-vc` and the same arguments can be used. For instance, to generate a PDF by differencing `before.tex` and `after.tex`, run the following command:
 
 ```
-$ ck-latexdiff-wrapper.sh --flatten --math-markup=1 before.tex after.tex
+$ ck-latexdiff.sh --flatten --math-markup=1 before.tex after.tex
 ```
 
 This generates `./diff/after_diff_${date}.pdf` file.
