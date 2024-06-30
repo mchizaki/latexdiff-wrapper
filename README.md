@@ -69,11 +69,11 @@ ck-latexdiff-wrapper.sh [ --suffix=* ] [ -w or --with-del ]
 -h  or  --help    Show this help text.
 ```
 
-- `--suffix=*`
+- `--suffix=*`<br />
   Use to specify the file name suffix for the generated PDF. File name: `./diff/<tex filename><suffix>.pdf`
-- `-w` or `--with-del`
+- `-w` or `--with-del`<br />
   Use If you want to highlight the parts before the changes as well as those after the changes. The filename of the generated PDF is `./diff/<second tex filename>_diffwd_<date text>.pdf` when `--suffix` option is not used.
-- `--not-rm-diffsrc`
+- `--not-rm-diffsrc`<br />
   By default, non-PDF productions such as diff `.tex` files are removed. You can avoid this by using this option.
 
 
