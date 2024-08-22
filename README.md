@@ -77,6 +77,11 @@ ck-latexdiff-wrapper.sh [ --suffix=* ] [ -w or --with-del ]
   By default, non-PDF productions such as diff `.tex` files are removed. You can avoid this by using this option.
 
 
+> [!CAUTION]
+> - path of last argument tex file (file1.tex or file2.tex) must not include subdirectory.
+> - path in \input{path} or \include{path} command in tex file must not include macro. (e.g. \input{\MyDir/subfile1} is invalid. You should write as \input{subdirname/subdfile1}.)
+
+
 
 #### Configuration files
 
@@ -90,7 +95,6 @@ diffpreamble-withdel.tex  diffpreamble.tex
 The respective `diffpreamble.tex` and `diffpreamble-withdel.tex` are made by `ck-latexdiff-wrapper.sh` without and with `-w` option.
 
 Edit these configuration files if you want to change the highlight markup in the PDF.
-
 
 
 > [!NOTE]
